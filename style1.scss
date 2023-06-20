@@ -1,0 +1,154 @@
+.nav-link{
+    color: black !important;
+    transition: 1000ms;
+    justify-content: center !important;
+
+    &:hover{
+        color: rgb(133, 133, 227) !important;
+    }
+}
+
+body{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.80857;
+    overflow-x: hidden;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/banner-bg.png");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.content{
+    margin-left: 120px;
+    padding: 50px;
+    h1{
+        width: 100%;
+        font-size: 60px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    #inp{
+     text-indent: 40px;
+     display: flex;
+      margin: auto;
+      width: 700px;
+      height: 70px;
+      border-radius: 30px;
+      border: none;
+    }
+
+    p{
+        text-align: center;
+        margin: auto;
+        color: #ffffff;
+        padding-top: 50px;
+    }
+
+    button{
+        font-size: 18px;
+        color: #ffffff;
+        display: flex;
+        margin: auto;
+        border: none;
+        margin-top: 10px;
+        padding: 10px 25px;
+        background-color: #252525;
+        transition: all 0.4s;
+
+        &:hover{
+            background-color: #fff;
+            color: #252525;
+        }
+    }
+}
+
+@media only screen and  (max-width: 1026px) {
+    .content {
+     .div{
+        width: 80%;
+     }
+
+        p, #inp, h1{
+            width: 300px;
+            margin-left: -150px;
+           }
+
+         button{
+            margin-left: -90px;
+            
+        }
+    }
+}
+
+.jobs-main{
+    margin-top: 50px;
+
+    .jobs{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .job-section{
+            p{
+                width: 450px;
+            }
+
+            button{
+                font-size: 18px;
+                color: #ffffff;
+                border: none;
+                padding: 10px 25px;
+                background-color: #252525;
+                transition: all 0.4s;
+                margin-bottom: 10px;
+                &:hover{
+                    background-color: #c8c8c8;
+                    color: #252525;
+                }
+            }
+          
+        }
+
+
+    }
+
+    .industrial, .corporate, .government{
+        margin-top: 50px;
+    }
+
+   
+}
+
+#img{
+    width: 600px;
+}
+
+footer{
+    background-color: #00aeef;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    color: white;
+
+    #inp{
+        
+         width: 500px;
+         height: 70px;
+         border-radius: 30px;
+         text-indent: 40px;
+         border: none;
+       }
+}
+
+.job-image{
+    margin-bottom: 30px;
+}
